@@ -17,3 +17,37 @@ This repository contains the complete Quality Assurance assessment submission fo
 - **Execution Command**:
   ```bash
   mvn clean test
+
+ 2. API Testing (Postman)
+Tool: Postman
+
+Environment: Staging URL (https://test.fieldforceconnect.com)
+
+Coverage:
+
+POST /login (Valid authentication with token retrieval)
+
+POST /login (Invalid credentials error validation)
+
+POST /api/CRM/Lead (Add Customer payload with header authorization)
+
+3. Manual Testing Documentation
+Deliverable: Manual Test Cases & Defect Reports (Excel format)
+
+Modules Covered:
+
+Sign Up / Registration
+
+Sign In with OTP
+
+Forgot Password Flow
+
+Login & Authentication Boundary Validation
+
+Coverage Included:
+
+Test Scenarios & Cases: Detailed pre-conditions, steps, and expected outputs.
+
+Field Validations: Boundary Value Analysis (BVA) and Equivalence Partitioning (EP).
+
+Bug Reports: Defect tickets with reproducible steps and evidence.
